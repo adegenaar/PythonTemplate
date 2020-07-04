@@ -1,2 +1,2 @@
-# PythonTemplate
-Template for Python CI Templates
+# Python Template 
+Template for Python CI
