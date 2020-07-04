@@ -1,5 +1,13 @@
 class Node:
+    """Data container for the data to save to the list
+    """
+
     def __init__(self, data):
+        """Constructor
+
+        Args:
+            data (Object): Python Object
+        """
         self.data = data
         self.next = None
 
@@ -8,7 +16,15 @@ class Node:
 
 
 class LinkedList:
+    """Python implementation of a linked list
+    """
+
     def __init__(self, nodes=None):
+        """Contructor
+
+        Args:
+            nodes (Node, optional): A list of node objects. Defaults to None.
+        """
         self.head = None
         if nodes is not None:
             node = Node(data=nodes.pop(0))
