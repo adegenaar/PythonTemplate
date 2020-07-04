@@ -1,5 +1,5 @@
 import pytest
-from linkedlistspython import LinkedList, Node
+from linkedlists import LinkedList, Node
 
 
 def test_new_list():
