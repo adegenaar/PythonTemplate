@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8]
+        python-version: [3.8, 3.9]
         
     steps:
     - uses: actions/checkout@v2
@@ -37,4 +37,5 @@ jobs:
     - name: Test with pytest
       run: |
         ls -l
-        pytest 
+        pip install pytest-cov
+        pytest --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html

@@ -3,3 +3,5 @@
 
 # Python Template 
 Template for Python CI
+
+Python template with GitHub Actions installed and working.  Used as the basis for all Python projects
