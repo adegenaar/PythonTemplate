@@ -1,5 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![PythonTemplate](https://github.com/adegenaar/PythonTemplate/workflows/PythonTemplate/badge.svg)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/adegenaar/PythonTemplate/Python%20Application)
+![GitHub](https://img.shields.io/github/license/adegenaar/PythonTemplate)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/adegenaar/PythonTemplate)
 
 # Python Template 
 Template for Python CI
